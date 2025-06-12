@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import Buttons from '../components/Buttons.vue'
+</script>
 
 <template>
   <div class="con">
@@ -9,6 +11,7 @@
         <img id="backspace-btn-img" src="../assets/backspace.svg" alt="" />
       </button>
     </div>
+    <Buttons id="btns" />
   </div>
 </template>
 
@@ -17,7 +20,7 @@
   .con {
     display: flex;
     flex-direction: column;
-    background: yellow;
+    background: #4a78cc;
 
     #input {
       text-align: right;
@@ -60,6 +63,10 @@
           width: 3.5rem;
         }
       }
+    }
+
+    #btns {
+      flex: 1;
     }
   }
 }
