@@ -4,6 +4,11 @@
   <div class="con">
     <input id="input" type="text" />
     <p id="result">6.0</p>
+    <div class="backspace-btn-con">
+      <button id="backspace-btn">
+        <img id="backspace-btn-img" src="../assets/backspace.svg" alt="" />
+      </button>
+    </div>
   </div>
 </template>
 
@@ -20,6 +25,7 @@
       outline: none;
       font-size: 3rem;
       padding: 1rem;
+      padding-bottom: 0;
       background: var(--white);
       color: var(--charcoal);
       caret-color: var(--blue);
@@ -36,6 +42,24 @@
       font-size: 2rem;
       background: var(--white);
       color: var(--charcoal);
+    }
+
+    .backspace-btn-con {
+      display: flex;
+      justify-content: flex-end;
+      background: var(--white);
+      color: var(--blue);
+      border-bottom: solid;
+
+      #backspace-btn {
+        margin: 0;
+        border: 0;
+        background: var(--white);
+
+        #backspace-btn-img {
+          width: 3.5rem;
+        }
+      }
     }
   }
 }

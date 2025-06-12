@@ -22,7 +22,7 @@ import Calc from '../components/Calc.vue'
     margin: 0;
     text-align: center;
     background: var(--blue);
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding-bottom: 0.2rem;
     font-family: Itim;
   }
