@@ -1,7 +1,10 @@
 <script setup></script>
 
 <template>
-  <div class="con"><input id="input" type="text" /></div>
+  <div class="con">
+    <input id="input" type="text" />
+    <p id="result">6.0</p>
+  </div>
 </template>
 
 <style scoped>
@@ -19,10 +22,20 @@
       padding: 1rem;
       background: var(--white);
       color: var(--charcoal);
+      caret-color: var(--blue);
 
       overflow-x: auto;
       white-space: nowrap;
       touch-action: manipulation;
+    }
+
+    #result {
+      margin: 0;
+      text-align: right;
+      padding: 1rem;
+      font-size: 2rem;
+      background: var(--white);
+      color: var(--charcoal);
     }
   }
 }
