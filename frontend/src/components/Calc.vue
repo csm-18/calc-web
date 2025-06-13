@@ -11,7 +11,7 @@ import Buttons from '../components/Buttons.vue'
         <img id="backspace-btn-img" src="../assets/backspace.svg" alt="" />
       </button>
     </div>
-    <Buttons id="btns" />
+    <Buttons id="buttons" />
   </div>
 </template>
 
@@ -65,7 +65,7 @@ import Buttons from '../components/Buttons.vue'
       }
     }
 
-    #btns {
+    #buttons {
       flex: 1;
     }
   }

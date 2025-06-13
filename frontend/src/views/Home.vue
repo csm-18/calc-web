@@ -15,7 +15,7 @@ import Calc from '../components/Calc.vue'
 .con {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  max-height: 100vh;
   overflow: hidden;
 
   h1 {
